@@ -1,0 +1,177 @@
+{
+  "name": "vera++",
+  "patterns": [
+    {
+      "patternId": "F002",
+      "category": "CodeStyle",
+      "level": "Info",
+      "parameters":[
+        {
+          "name": "max-directory-depth",
+          "default": "8"
+        },
+        {
+          "name": "max-dirname-length",
+          "default": "31"
+        },
+        {
+          "name": "max-filename-length",
+          "default": "31"
+        },
+        {
+          "name": "max-path-length",
+          "default": "100"
+        }
+      ]
+    },
+    {
+      "patternId": "L001",
+      "category": "CodeStyle",
+      "level": "Info",
+      "parameters":[
+        {
+          "name": "strict-trailing-space",
+          "default": "0"
+        }
+      ]
+    },
+    {
+      "patternId": "L002",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "L003",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "L004",
+      "category": "CodeStyle",
+      "level": "Info",
+      "parameters":[
+        {
+          "name": "max-line-length",
+          "default": "100"
+        }
+      ]
+    },
+    {
+      "patternId": "L005",
+      "category": "CodeStyle",
+      "level": "Info",
+      "parameters":[
+        {
+          "name": "max-consecutive-empty-lines",
+          "default": "2"
+        }
+      ]
+    },
+    {
+      "patternId": "L006",
+      "category": "CodeStyle",
+      "level": "Info",
+      "parameters":[
+        {
+          "name": "max-file-length",
+          "default": "2000"
+        }
+      ]
+    },
+    {
+      "patternId": "T001",
+      "category": "ErrorProne",
+      "level": "Info"
+    },
+    {
+      "patternId": "T002",
+      "category": "ErrorProne",
+      "level": "Info"
+    },
+    {
+      "patternId": "T003",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T004",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T005",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T006",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T007",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T008",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T009",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T010",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T011",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T012",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T013",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T014",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T015",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T016",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T017",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T018",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
+      "patternId": "T019",
+      "category": "CodeStyle",
+      "level": "Info"
+    }
+  ]
+}

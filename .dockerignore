@@ -1,0 +1,8 @@
+.git
+.gitignore
+.dockerignore
+codacy-plugins-test/
+Dockerfile
+scripts/
+docs/description/README.md
+**/F001.*
