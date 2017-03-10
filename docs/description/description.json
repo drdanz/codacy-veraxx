@@ -2,7 +2,6 @@
   {
     "patternId": "F002",
     "title": "File names should be well-formed",
-    "description": "",
     "timeToFix": 1,
     "parameters":[
       {
@@ -26,7 +25,6 @@
   {
     "patternId": "L001",
     "title": "No trailing whitespace",
-    "description": "",
     "timeToFix": 1,
     "parameters":[
       {
@@ -38,19 +36,16 @@
   {
     "patternId": "L002",
     "title": "Don't use tab characters",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "L003",
     "title": "No leading and no trailing empty lines",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "L004",
     "title": "Line cannot be too long",
-    "description": "",
     "timeToFix": 1,
     "parameters":[
       {
@@ -62,7 +57,6 @@
   {
     "patternId": "L005",
     "title": "There should not be too many consecutive empty lines",
-    "description": "",
     "timeToFix": 1,
     "parameters":[
       {
@@ -74,7 +68,6 @@
   {
     "patternId": "L006",
     "title": "Source file should not be too long",
-    "description": "",
     "timeToFix": 2,
     "parameters":[
       {
@@ -86,115 +79,96 @@
   {
     "patternId": "T001",
     "title": "One-line comments should not have forced continuation",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T002",
     "title": "Reserved names should not be used for preprocessor macros",
-    "description": "",
     "timeToFix": 5
   },
   {
     "patternId": "T003",
     "title": "Some keywords should be followed by a single space",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T004",
     "title": "Some keywords should be immediately followed by a colon",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T005",
     "title": "Keywords break and continue should be immediately followed by a semicolon",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T006",
     "title": "Keywords return and throw should be immediately followed by a semicolon or a single space",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T007",
     "title": "Semicolons should not be isolated by spaces or comments from the rest of the code",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T008",
     "title": "Keywords catch, for, if, switch and while should be followed by a single space",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T009",
     "title": "Comma should not be preceded by whitespace, but should be followed by one",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T010",
     "title": "Identifiers should not be composed of 'l' and 'O' characters only",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T011",
     "title": "Curly brackets from the same pair should be either in the same line or in the same column",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T012",
     "title": "Negation operator should not be used in its short form",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T013",
     "title": "Source files should contain the copyright notice",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T014",
     "title": "Source files should refer the Boost Software License",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T015",
     "title": "HTML links in comments and string literals should be correct",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T016",
     "title": "Calls to min/max should be protected against accidental macro substitution",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T017",
     "title": "Unnamed namespaces are not allowed in header files",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T018",
     "title": "Using namespace is not allowed in header files",
-    "description": "",
     "timeToFix": 1
   },
   {
     "patternId": "T019",
     "title": "Control structures should have complete curly-braced block of code",
-    "description": "",
     "timeToFix": 1
   }
 ]
