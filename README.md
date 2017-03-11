@@ -8,7 +8,7 @@ Offers vera++ support for Codacy
 ## Dependencies
 
 There are no special dependencies to run this container, just `git` and `docker`
-should be enough.
+and `sbt` to run the tests should be enough.
 
 
 ## Executed Script
