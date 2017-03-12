@@ -1,5 +1,11 @@
 [
   {
+    "patternId": "F001",
+    "title": "Source files should not use the '\r' (CR) character",
+    "description": "",
+    "timeToFix": 1
+  },
+  {
     "patternId": "F002",
     "title": "File names should be well-formed",
     "timeToFix": 1,

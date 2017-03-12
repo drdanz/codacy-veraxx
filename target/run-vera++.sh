@@ -28,11 +28,11 @@ fi
 
 unset MESSAGE
 if [ -n "${RULES}" ]; then
-  OUT=$(${COMMAND})
+  OUT=$(${COMMAND} | sed 's/\\/\\\\/g')
   if [ ${DEBUG} ]; then
     >&2 echo "OUT =\n${OUT}"
   fi
-  MESSAGE=$(echo "${OUT}" | awk 'BEGIN { FS = ": ?"; ORS = ""} {printf "{\"filename\":\""$1"\",\"message\":\""$4"\",\"patternId\":\""$3"\",\"line\":"$2"}\n" }' | sed 's|/src/||g')
+  MESSAGE=$(echo "${OUT}" | sed 's/\\/\\\\/g' | awk 'BEGIN { FS = ": ?"; ORS = ""} {printf "{\"filename\":\""$1"\",\"message\":\""$4"\",\"patternId\":\""$3"\",\"line\":"$2"}\n" }' | sed 's|/src/||g')
 else
   if [ ${DEBUG} ]; then
     >&2 echo "NOT RUNNING"

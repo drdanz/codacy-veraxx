@@ -2,6 +2,11 @@
   "name": "vera++",
   "patterns": [
     {
+      "patternId": "F001",
+      "category": "CodeStyle",
+      "level": "Info"
+    },
+    {
       "patternId": "F002",
       "category": "CodeStyle",
       "level": "Info",
