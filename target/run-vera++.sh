@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set DEBUG=false
+DEBUG=false
 
 if [ ${DEBUG} ]; then
   >&2 cat /src/.codacy.json
@@ -30,12 +30,12 @@ unset MESSAGE
 if [ -n "${RULES}" ]; then
   OUT=$(${COMMAND})
   if [ ${DEBUG} ]; then
-    >&2 echo -e "OUT =\n${OUT}"
+    >&2 echo "OUT =\n${OUT}"
   fi
   MESSAGE=$(echo "${OUT}" | awk 'BEGIN { FS = ": ?"; ORS = ""} {printf "{\"filename\":\""$1"\",\"message\":\""$4"\",\"patternId\":\""$3"\",\"line\":"$2"}\n" }' | sed 's|/src/||g')
 else
   if [ ${DEBUG} ]; then
-    >&2 echo -e "NOT RUNNING"
+    >&2 echo "NOT RUNNING"
   fi
 fi
 
@@ -46,7 +46,7 @@ if [ -z "${MESSAGE}" ]; then
   # do nothing
 else
   if [ ${DEBUG} ]; then
-    >&2 echo -e "MESSAGE = \n${MESSAGE}"
+    >&2 echo "MESSAGE = \n${MESSAGE}"
   fi
   echo "${MESSAGE}"
 fi
